@@ -1,0 +1,1 @@
+bu proje 1-2 gün gibi kısa bir sürede oluşturulmuştur, dolayısıyla ui kısımlarında bazı eksiklikler olabilir(örn:resim boyutu, mobil menü)

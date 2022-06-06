@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1000px;
+            margin: 30px auto;
+            overflow: hidden;
+        }
+        .resimler{
+            width: 100%;
+            display: flex;
+        }
+        
+        img{
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="resimler">
+            <img src="./1.jpg" alt="">
+            <img src="./2.jpg" alt="">
+            <img src="./3.jpg" alt="">
+        </div>
+    </div>
+    <div class="buttonlar">
+        <input type="button" value="geri" id="geri" onclick="geri()">
+        <input type="button" value="ileri" id="ileri" onclick="ileri()">
+    </div>
+
+
+    <script>
+        let resimler = document.querySelectorAll("img");
+        let resim = document.querySelector(".resimler")
+        let container = document.querySelector(".container");
+        let genislik = 1000;
+        let sayac = 0;
+        resim.style.transform = 'translateX('+(-sayac*genislik)+'px)';
+        ileri();
+        function ileri(){
+            sayac++;
+            if(sayac >= resimler.length){
+                sayac=0;
+            }
+            resim.style.transition = "transform 0.7s ease";
+            resim.style.transform = 'translateX('+(-sayac * genislik)+'px)';
+        }
+        zaman = setInterval("ileri()",3000)
+        function geri(){
+            sayac--;
+            if(sayac < 0){
+                sayac = resimler.length -1;
+            }
+            resim.style.transition = "transform 0.7s ease";
+            resim.style.transform = 'translateX('+(-sayac * genislik)+'px)';
+        }
+        
+    </script>
+</body>
+</html>

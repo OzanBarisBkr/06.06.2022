@@ -1,0 +1,19 @@
+{   
+    "sorular":[
+        {
+            "soru":"1- lorem ipsum dolor sit amet?11",
+            "cevaplar": {"a":"lorem","b":"ipsum","c":"dolor"},
+            "cevap":"a"
+        },
+        {
+            "soru":"2- lorem ipsum dolor sit amet?22",
+            "cevaplar": {"a":"lorem","b":"ipsum","c":"dolor"},
+            "cevap":"a"
+        },
+        {
+            "soru":"3- lorem ipsum dolor sit amet?33",
+            "cevaplar": {"a":"lorem","b":"ipsum","c":"dolor"},
+            "cevap":"a"
+        }
+    ]
+}

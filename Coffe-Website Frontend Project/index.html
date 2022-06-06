@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="still.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="PikPng.com_cafe-png_2822447.png">
+    <title>Central Coffee House</title>
+</head>
+<body>
+    <div class="container container-body" id="home">
+        <header class="navbar"> <!--header START-->
+            <div class="logo"><img src="PikPng.com_cafe-png_2822447.png" width="160px" height="80px" alt="..."></div>
+            <nav class="navbar-links">
+                <ul>
+                    <li class="navbar-li"><a href="#home">Home</a></li>
+                    <li class="navbar-li"><a href="#section-2">Menu</a></li>
+                    <li class="navbar-li"><a href="#section-3">Our Story</a></li>
+                    <li class="navbar-li"><a href="#footer">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <span data-toggle="modal" id="kaybol" data-target="#exampleModalCenter"><input type="text" placeholder="Go Search"></span>
+                <p class="ml-auto"><i class="fas fa-search"></i></p>
+            </div>
+             <!--POP UP HERE-->
+                <!-- Modal -->
+                <div class="modal fade pop-up-start" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Lorem ipsum dolor sit amet.</h5>
+                            <button type="button" onclick="engelle()" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="pop-up.jpg" alt="..." style="object-fit: cover;" class="w-100 rounded p-1 mb-1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Officiis similique quos velit ipsa aperiam dolore consectetur 
+                                fugiat, rem eligendi ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              <!--POPup End-->
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </header> <!--Header End-->
+    </div>
+         <!--Main Page Start--> <!-- Big Slider  -->
+            <section class="main-page"> 
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade h-100" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="banner/banner1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-sm-block">
+                          <h3 class="text-light">Lorem ipsum dolor sit amet</h3>
+                          <p class="text-warning">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <button type="button" class="btn btn-danger">Get In Touch</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner/banner3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-sm-block">
+                          <h3 class="text-light">Sed ut perspiciatis unde omnis</h3>
+                          <p class="text-warning">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</p>
+                          <button type="button" class="btn btn-danger">Get In Touch</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner/banner4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-sm-block">
+                          <h3 class="text-light">Nemo enim ipsam voluptatem</h3>
+                          <p class="text-warning">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                          <button type="button" class="btn btn-danger">Get In Touch</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner/banner2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-sm-block">
+                          <h3 class="text-light">Ut enim ad minima veniam</h3>
+                          <p class="text-warning">Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+                          <button type="button" class="btn btn-danger">Get In Touch</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        <!--     Main Page End    -->
+    <div class="container">
+        <section class="section-2 " id="section-2"> <!--     Bolum 2 Start    -->
+            <article class="reveal fade-right">
+                <figure>
+                    <blockquote>
+                        <h2>JUST TASTE IT</h2>
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Tempore molestias, alias vero cupiditate dolor voluptatibus cumque debitis quia soluta expedita."
+                        </p>
+                    </blockquote>
+                </figure>
+                
+            </article>
+            <aside class="row reveal fade-left">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel"> <!--Slider for mini pictures-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"> <!--slider-1 Start-->
+                            <div class="card-deck">
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup1.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores vero, earum deleniti officia cupiditate.</p>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup2.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae molestiae porro. Minus, error doloribus?</p>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup3.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, animi non? Ut rerum neque aperiam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--Slider-1 END-->
+                        <div class="carousel-item"> <!--slider-2 Start-->
+                            <div class="card-deck">
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup4.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores vero, earum deleniti officia cupiditate.</p>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup5.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae molestiae porro. Minus, error doloribus?</p>
+                                    </div>
+                                </div>
+                                <div class="card col-sm-4 col-md-6">
+                                    <img src="cupslider/cup6.jpg" class="card-img-top rounded" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-warning">Lorem Picsum Dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, animi non? Ut rerum neque aperiam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!--Slider-2 End-->
+                    </div>
+                </div><!--Slider for mini pictures END-->
+            </aside>
+            <a href="#home" class="reveal fade-right">Show More</a> <!--button-->
+        </section> <!--    Bolum 2 END     -  -->
+        <!--     Bolum 3 START      -->
+        <section class="section-3 reveal fade-bottom" id="section-3"> 
+            <div class="row">
+                <div class="col-sm-12 dual-cards">
+                    <div class="row">
+                        <div class="col-sm-6 section-cards">
+                            <img src="resim8.jpg" alt="..." class="w-100 h-100">
+                        </div>
+                        <div class="col-sm-6 section-cards">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipisicing elit. Amet harum dicta hic culpa 
+                                consequuntur commodi esse eligendi obcaecati eius totam.</p>
+                        </div>
+                        <div class="col-sm-6 section-cards">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipisicing elit. Amet harum dicta hic culpa 
+                                consequuntur commodi esse eligendi obcaecati eius totam.</p>
+                        </div>
+                        <div class="col-sm-6 section-cards">
+                            <img src="resim2.jpg" alt="..." class="w-100 h-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!------Bolum 3 END----->
+        <div class="bosluk mt-5"></div>
+        <section class="section-4"> <!----Bolum 4 START ----->
+            <div class="row">
+                <div class="col-sm-10 offset-1">
+                    <h3 class="e-bulten">E-BULTEN</h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. 
+                        Commodi consequatur
+                    </p>
+                    <div class="mail-bar">
+                        <input type="email" placeholder="example@gmail.com">
+                        <a href="#footer" class="mail-button">Kayıt</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer"> <!----   Footer Start --->
+            <div class="row footer-icerik">
+                <div class="col-sm-4 pl-4 sol-taraf">
+                    <h5>Title Here</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Aperiam rerum accusantium, ea neque facilis, recusandae impedit at debitis, 
+                        distinctio perferendis esse velit. 
+                    </p>
+                    <div class="icons">
+                        <i class="fab fa-instagram"><a href="#"></a></i>
+                        <i class="fab fa-facebook"><a href="#"></a></i>
+                        <i class="fab fa-twitter"><a href="#"></a></i>
+                        <i class="fab fa-whatsapp"><a href="#"></a></i>
+                    </div>
+                </div>
+                <div class="col-sm-7 sag-taraf">
+                    <nav class="row"> <!-- aşağısı ul li olarak da girilebilir-->
+                        <div class="col-sm-4">
+                            <h5>About</h5>
+                            <a href="#">History</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Brand Guidelines</a>
+                            <a href="#">Terms & Condition</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>Services</h5>
+                            <a href="#">How To Order</a>
+                            <a href="#">Our Product</a>
+                            <a href="#">Order Status</a>
+                            <a href="#">Promo</a>
+                            <a href="#">Payment Method</a>
+                        </div>
+                        <div class="col-sm-4">
+                            <h5>Other</h5>
+                            <a href="#">Contact Us</a>
+                            <a href="#">Help</a>
+                            <a href="#">Privacy</a>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+
+        </footer> <!--  Footer End  -->
+    </div> <!--Container End-->
+
+<!--js bundle for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>

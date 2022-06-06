@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./still/still.css">
+    <link rel="stylesheet" href="./still/animate.css">
+</head>
+<body>
+    <div class="none-navi container-fluid"> <!--mobil navigasyon-->
+        <i class="close-button">+</i>
+        <div class="row">
+            <div class="mobil-nav col-6 d-flex justify-content-end">
+                <nav>
+                    <ul class="">
+                        <li><a class="wow fadeInRight" data-wow-delay="500ms" href="#">Anasayfa</a></li>
+                        <li><a class="wow fadeInRight" data-wow-delay="700ms" href="#">Hakkımızda</a></li>
+                        <li><a class="wow fadeInRight" data-wow-delay="900ms" href="#">Sıralama</a></li>
+                        <li><a class="wow fadeInRight" data-wow-delay="1100ms" href="#footer">İletişim</a></li>
+                        <li><a class="wow fadeInRight" data-wow-delay="1300ms" href="#">Diğer Testler</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mobil-icons col-6 ">
+                <a class="wow fadeInLeft profile-icon" data-wow-delay="500ms" href="#"><i class="fa-solid fa-person-hiking"></i></a>
+                <a class="wow fadeInLeft language" data-wow-delay="700ms" href="#">TR</a>
+            </div>
+            <div class="mobil-social-icons col-12">
+                <i class="wow fadeInUp fa-brands fa-facebook-square" data-wow-delay="1500ms"></i>
+                <i class="wow fadeInUp fa-brands fa-instagram-square" data-wow-delay="1700ms"></i>
+                <i class="wow fadeInUp fa-brands fa-linkedin" data-wow-delay="1900ms"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-main">
+        <header>
+            <div class="logo"><i>Survival Test</i><img src="./pictures/logo.png" alt=""></div>
+            <nav class="ms-auto d-none d-lg-block">
+                <ul>
+                    <li class="wow fadeInLeft" data-wow-delay="200ms"><a href="#">Anasayfa</a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="400ms"><a href="#">Diğer Testler</a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="600ms"><a href="#">Sıralama</a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="900ms"><a href="#footer">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons d-none d-lg-block">
+                <a class="language mx-2" href="#">TR</a>
+                <a class="profile-icon" href="#"><i class="fa-solid fa-person-hiking"></i></a>
+            </div>
+            <div class="search-bar"> <!--  mobil görünümde order özelliği ile nav kısmıyla yer değiştirecek-->
+                <input class="searh-area" type="text" >
+                <span class="s-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+            </div>
+            <!--mobil navbar-->
+            <div class="none-bar d-md-block d-lg-none">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+                        
+        </header>
+        <section class="banner-section">
+            
+                    <div id="carouselExampleIndicators" class="carousel slide row w-100" data-bs-ride="carousel">
+                        <div class="d-none d-sm-block col-sm-3 sol-taraf">  
+                            <h1 class="wow bounceInLeft">KEN<br>DİNİ SINA</h1>
+                            <p class="d-lg-block d-none wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="social-icons">
+                                <i class="fa-brands fa-facebook-square wow fadeInDown" data-wow-delay="200ms"></i>
+                                <i class="fa-brands fa-instagram-square wow fadeInDown" data-wow-delay="300ms"></i>
+                                <i class="fa-brands fa-linkedin wow fadeInDown" data-wow-delay="400ms"></i>
+                            </div>
+                            <img src="./pictures/ico_art.png" class="arrow wow bounceInDown" alt="">      
+                        </div>
+                        <div class="col-12 col-sm-9 col-md-8 slider-mid">
+                                <div class="carousel-inner" >
+                                  <div class="carousel-item active" data-bs-interval="10000" data-bs-touch="false">
+                                    <img src="./pictures/banner1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-touch="false">
+                                    <img src="./pictures/banner2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-touch="false">
+                                    <div class="video-container"><iframe  width="100%" height="100%" src="https://www.youtube.com/embed/sRarZRUgjk0?controls=0&amp;showinfo=0&amp;mute=1&amp;autoplay=1&amp;start=20&amp;end=49&amp;loop=1&amp;playlist=sRarZRUgjk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+                                  </div>
+                                  <button class="carousel-prev d-sm-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-next d-sm-none d-md-block" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                        </div>
+                        <div class="col-sm-9 offset-sm-3 col-md-1 offset-md-0 sag-taraf">
+                            <div class="carousel-indicators" id="extra-show">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1">1</button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="" aria-label="Slide 2">2</button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="" aria-label="Slide 3">3</button>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </div>
+    <!--  1. bölüm sonu-->
+    <section id="bolum-2" class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-7 test-kisim"> <!--sol-taraf-->
+                    <h2>Popüler Testler</h2>
+                    <div class="col-12 test">
+                        <div class="row">
+                            <div class="col-12 col-md-6 test-img wow fadeInLeft" data-wow-delay="200ms"><img class="w-100" src="./pictures/test-3.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 test-icerik">
+                                <h5 class="wow fadeInDown" data-wow-delay="200ms">ANAHTAR YETENEKLER</h5>
+                                <h3 class="wow fadeInDown" data-wow-delay="400ms">Sürtünmeyle Ateş Yakma</h3>
+                                <p class="wow fadeInDown" data-wow-delay="600ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="test-link wow fadeInUp" data-wow-delay="900ms"><a href="#testKismi"><span>+</span>SINANMAK İÇİN TIKLA</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 test">
+                        <div class="row">
+                            <div class="col-12 col-md-6 test-img wow fadeInLeft" data-wow-delay="200ms"><img class="w-100" src="./pictures/test-2.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 test-icerik">
+                                <h5 class="wow fadeInDown" data-wow-delay="200ms">ANAHTAR YETENEKLER</h5>
+                                <h3 class="wow fadeInDown" data-wow-delay="400ms">Sığınak İnşa Etme</h3>
+                                <p class="wow fadeInDown" data-wow-delay="600ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="test-link wow fadeInUp" data-wow-delay="900ms"><a href="#testKismi"><span>+</span>SINANMAK İÇİN TIKLA</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 test">
+                        <div class="row">
+                            <div class="col-12 col-md-6 test-img wow fadeInLeft" data-wow-delay="200ms"><img class="w-100" src="./pictures/test-1.jpg" alt=""></div>
+                            <div class="col-12 col-md-6 test-icerik">
+                                <h5 class="wow fadeInDown" data-wow-delay="200ms">ANAHTAR YETENEKLER</h5>
+                                <h3 class="wow fadeInDown" data-wow-delay="400ms">Yemek Pişirme</h3>
+                                <p class="wow fadeInDown" data-wow-delay="600ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="test-link wow fadeInUp" data-wow-delay="900ms"><a href="#testKismi"><span>+</span>SINANMAK İÇİN TIKLA</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--sag-taraf-->
+                <article class="col-12 offset-sm-1 col-sm-4 test-kisim-sag wow fadeInRight">
+                    <div class="col-12">
+                        <img class="arrow2 wow fadeInDown" data-wow-delay="600ms" src="./pictures/ico_art.png" alt="">
+                        <h1 class="wow fadeInDown" data-wow-delay="200ms">Görev</h1>
+                        <h3 class="wow fadeInDown" data-wow-delay="400ms">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, impedit.</h3>
+                        <p class="wow fadeInDown" data-wow-delay="600ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt laborum pariatur debitis architecto ut at maiores possimus reprehenderit facilis?</p>
+                        <div class="test-link wow fadeInUp" data-wow-delay="900ms"><a href="#testKismi"><span>+</span>SINANMAK İÇİN TIKLA</a></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section><!-- test gözükecek kısım-->
+    <section id="testKismi" class="testKismi d-none bg-secondary w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 testSorulari">
+                    <div class="sorular">
+                        <p class="soruCumlesi">soru</p>
+                        <div class="answers">
+                            <!--gelecek veriler-->
+                        </div>
+                    </div>
+                    <input type="button" class="btn btn-primary" id="gec" data-soru="0" value="Sıradaki soru">
+                    <input type="button" class="btn btn-warning" id="bitir" class="d-none" value="Sınavı bitir">
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!--Bölüm 2 sonu-->
+    <section id="bolum-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 bolum3-sol">
+                    <div class="bolum3-sol-icerik">
+                        <h5 class="wow fadeInUp" data-wow-delay="200ms">HAYATTA KALMA IHTIMALIN</h5>
+                        <h1 class="yuzde wow fadeInUp" data-wow-delay="400ms">98%</h1>
+                        <p class="wow fadeInUp" data-wow-delay="600ms"><span class="cevap">12</span> soruyu<br> doğru bildin</p>
+                    </div>
+                    <img src="./pictures/ico_art.png" class="arrow-3" alt="">
+                </div>
+                <div class="col-md-12 col-lg-8 bolum3-sag">
+                    <div class="reklam-icerik">
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms">SONUÇLARINI SOSYAL MEDYADA PAYLAŞ!</h2>
+                        <p class="wow fadeInUp" data-wow-delay="400ms">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, culpa! consectetur baros adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Bölüm 3 sonu-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo"><i>Survival Test</i><img src="./pictures/logo.png" alt=""></div>
+                    </div>
+                    <div class="col-md-9 row">
+                        <div class="col-md-4 order-3 order-md-1">
+                            <ul>
+                                <li class="wow fadeInDown" data-wow-delay="200ms"><h3>TESTLER</h3></li>
+                                <li class="wow fadeInUp" data-wow-delay="300ms"><a href="#">Endurence</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="400ms"><a href="#">Survival</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="500ms"><a href="#">Key skills</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="600ms"><a href="#">Survival kit</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="700ms"><a href="#">Shelter making</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="800ms"><a href="#">Food challenges</a></li>
+                            </ul>
+                            <div class="footer-icons">
+                                <i class="wow fadeInUp fa-brands fa-facebook-square" data-wow-delay="1000ms"></i>
+                                <i class="wow fadeInUp fa-brands fa-instagram-square" data-wow-delay="1000ms"></i>
+                                <i class="wow fadeInUp fa-brands fa-linkedin" data-wow-delay="1000ms"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 order-2 order-md-2">
+                            <ul>
+                                <li class="wow fadeInDown" data-wow-delay="200ms"><h3>TAVSİYELER</h3></li>
+                                <li class="wow fadeInUp" data-wow-delay="300ms"><a href="#">Mountain survival</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="400ms"><a href="#">Forest challenges</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="500ms"><a href="#">How to make your shelter</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="600ms"><a href="#">What to eat in forest</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="700ms"><a href="#">How to stay safe</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="800ms"><a href="#">What to wear</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 order-1 order-md-3">
+                            <ul>
+                                <li class="wow fadeInDown" data-wow-delay="200ms"><h3>GALERİ</h3></li>
+                                <li class="wow fadeInUp" data-wow-delay="300ms"><a href="#">Foto gallery</a></li>
+                                <li class="wow fadeInUp" data-wow-delay="400ms"><a href="#">Video gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/d274e337c4.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    
+    
+</body>
+</html>
